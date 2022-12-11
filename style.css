@@ -1,0 +1,520 @@
+header{
+display: flex;
+justify-content: space-between;
+padding: 0 200px;
+}
+
+.logo{
+    display:flex;
+}
+
+.logo span{
+    border-radius: 50%;
+    background-color: #458FF6;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    margin: 15px 5px;
+}
+
+.logo h2{
+    color: #233348;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    top: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar li a{
+    color: #1F1534;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    opacity: 0.5;
+}
+
+.navbar .special{
+    opacity: 100%;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 200px;
+    align-items: center;
+    color: #000000;
+}
+
+.left-content h3{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.left-content p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    color: #7D7987;
+    line-height: 30px;
+}
+
+.left-content button{
+    border-radius: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #458FF6;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+.services{
+    padding: 150px 200px;
+    background-image: url(vector.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 100vh;
+}
+
+.services-header{
+    text-align: center;
+}
+
+.services-header h2{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.services-header hr{
+    width: 5%;
+    color: #000000;
+}
+
+.services-header p{
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 100px;
+}
+
+.services-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.services-content .card{
+    position: relative;
+    width: calc(40% - 150px);
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin: 10px 0;
+    height: 300px;
+}
+
+.services-content i{
+    position: absolute;
+    color: #458FF6;
+    font-size: 40px;
+    left: 20%;
+    top: 15%;
+}
+
+.services-content h2{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.services-content p{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.learn-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.learn-btn a{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    color: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #458FF6;
+    text-decoration: none;
+    background-color: white;
+}
+
+.healthcare{
+    padding: 150px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.healthcare .right-content h2{
+    font-family: 'Mulish', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.healthcare .right-content hr{
+   width: 10%;
+   margin-right: 100%;
+}
+
+.healthcare .right-content p{
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.healthcare .right-content a{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    color: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #458FF6;
+    text-decoration: none;
+    background-color: white;
+}
+
+.apps{
+    padding: 150px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apps .left-content h2{
+    font-family: 'Mulish', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.apps .left-content hr{
+    width: 10%;
+   margin-right: 100%;
+}
+
+.apps .left-content p{
+    font-family: 'Mulish', sans-serif;
+    color: #7D7987;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.apps .left-content a{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    color: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #458FF6;
+    text-decoration: none;
+    background-color: white;
+}
+
+.apps .left-content a i{
+    margin-left: 10px;
+}
+
+.customer-feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 200px;
+    position: relative;
+}
+
+.feedback-content{
+    background-color: #458FF6;
+    width: 1120px;
+    height: 425px;
+    border-radius: 10px;
+}
+
+.feedback-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-content h2{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.feedback-content hr{
+    width: 5%;
+    margin-bottom: 80px;
+}
+
+.customer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-info img{
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 40px;
+}
+
+.customer-info h3{
+    font-family: 'Mulish', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+    margin-right: 20px;
+}
+
+.customer-info span{
+    font-family: 'Mulish', sans-serif;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.customer-p{
+    font-family: 'Mulish', sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+
+.arrow-slider{
+    position: absolute;
+    bottom: 10%;
+}
+
+.arrow-slider img{
+    margin: 0 10px;
+}
+
+.article{
+    padding: 150px 200px;
+}
+
+.article h2{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.article hr{
+    width: 5%;
+    margin-bottom: 100px;
+}
+
+.article-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(vector.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.article-card{
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    height: 512px;
+    margin: 0 80px;
+}
+
+.article-card p{
+    margin-left: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+
+.article-card h3{
+    margin-left: 20px;
+    font-family: 'Mulish', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+}
+
+.article-card a{
+    text-decoration: none;
+    color: #4089ED;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+ .arrow{
+    margin-left: 20px;
+    width: 5%;
+ }
+
+.view-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.view-btn a{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    color: #458FF6;
+    font-weight: 700;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #458FF6;
+    text-decoration: none;
+    background-color: white;
+}
+
+.footer{
+    padding: 150px 200px;
+}
+
+.footer-content{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    height: 432px;
+    left: 0px;
+    top: 5438px;
+}
+
+.footer-col-special .logo span{
+    background-color: #FFFFFF;
+    color: #5B9BF3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.footer-col-special .logo h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.footer-col-special .first-p{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.footer-col-special .second-p{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.footer-col ul li{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.footer-col .list-header{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
